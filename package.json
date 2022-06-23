@@ -7,7 +7,7 @@
     "security",
     "module"
   ],
-  "repository": "restorm-labs/nuxt-restream",
+  "repository": "https://github.com/restorm-labs/nuxt-restream.git",
   "license": "MIT",
   "type": "module",
   "exports": {
