@@ -1,11 +1,19 @@
 {
   "name": "nuxt-restream",
   "version": "0.0.9",
+  "author": "Restorm Labs <social@restorm.co>",
   "description": "Secure media content inside your Nuxt app",
   "keywords": [
     "nuxt",
     "security",
-    "module"
+    "module",
+    "stream",
+    "firebase",
+    "storage",
+    "audio",
+    "video",
+    "stream-audio",
+    "stream-video"
   ],
   "repository": "https://github.com/restorm-labs/nuxt-restream.git",
   "license": "MIT",
