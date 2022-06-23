@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-restream",
+  "version": "0.0.9",
+  "description": "Secure media content inside your Nuxt app",
+  "keywords": [
+    "nuxt",
+    "security",
+    "module"
+  ],
+  "repository": "restorm-labs/nuxt-restream",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0-rc.4"
+  },
+  "devDependencies": {
+    "@nuxt/module-builder": "latest",
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "eslint": "latest",
+    "firebase-admin": "^11.0.0",
+    "nuxt": "^3.0.0-rc.4"
+  }
+}
