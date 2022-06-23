@@ -1,5 +1,7 @@
 
-# @restorm/nuxt-restream
+<img src="https://uc882976b624c423c094086a12ea.previews.dropboxusercontent.com/p/thumb/ABnCeOauOGCvGQLZ--qVAWN-8DZtimdQl-iFmLqq-xiHsT0o8eIPl5vJ5KVmrGhvgrEeOpwCNobsmLwhh-5fEicM9Hry6mOcTSmW72x0GNNdJ1MVchfk7yfb5oSMcHWBEshr_FV92ui1ziQJHA3z3FsefRKg5RKTuQjwO6CG3p4p9cSnhEVMbnryCayIgzklsQNBC239AZ_81RxWY1ir-eluvkQqDXd2hSLkiMib-wFO555MYAqVkEPDfIyDTX3-fbsA418QQkTCOVBnwJnZvSTgMan9C4bN9racctUZpqnOUPysQWB7KbGws0cIMhazKh5cXVDJ89bySvZfwln_uCiWKJoXRB8A9FYgXM0E79hTlr8klsdA_I65Ta-8_rjsRSaP7eIV3EOxfeGJJzvOWMZgWpLtrA2v90mIYXFbcv0cQQ/p.png" alt="Logo" width="200" height="auto">
+
+## nuxt-restream
 
 > Restream is a module that allows you to create a stream of an audio/video file from the Firebase storage, protected from direct download through the client. Convenient to use if needed provide media files with restricted access such as purchase, subscription and avoid downloading the file directly from the Firebase storage on the client-side
 
@@ -12,7 +14,7 @@
 
 ## Quick setup
 
-1. Install `@restorm/nuxt-restream`
+1. Install `nuxt-restream`
 
    ```bash
    yarn add --dev nuxt-restream # or npm install --save-dev nuxt-restream
