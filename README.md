@@ -17,7 +17,7 @@
 1. Install `nuxt-restream`
 
    ```bash
-   yarn add --dev nuxt-restream # or npm install --save-dev nuxt-restream
+   yarn add --dev firebase-admin nuxt-restream # or npm install --save-dev firebase-admin nuxt-restream
    ```
 
 2. Add it to the `modules` section of `nuxt.config.ts`
